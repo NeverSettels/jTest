@@ -1,11 +1,11 @@
-jQuery(document).ready(function() {
-  jQuery('img').click(function(){
+$(document).ready(function() {
+  $('img').click(function(){
     alert("this is an image");
   });
-  jQuery("h1").click(function(){
+  $("h1").click(function(){
     alert('this is a header');
   });
-  jQuery('p').click(function(){
+  $('p').click(function(){
     alert("this is a paragraph");
   });
 });
